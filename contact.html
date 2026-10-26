@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden | Contact</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-white text-gray-800">
+
+    <!-- Navigation -->
+    <nav class="bg-green-100 p-4 flex items-center justify-between">
+        <h1 class="text-2xl font-bold text-green-900">Greenden</h1>
+
+        <div class="flex gap-5">
+            <a href="index.html" class="hover:text-green-700">Home</a>
+            <a href="products.html" class="hover:text-green-700">Products</a>
+            <a href="contact.html" class="font-bold text-green-900">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Contact Heading -->
+    <section class="text-center p-8">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Contact Us</h2>
+        <p class="text-gray-600">
+            Have a question? Send us a message.
+        </p>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="px-6 pb-12">
+        <form class="max-w-xl mx-auto border border-green-200 p-6 md:p-8 rounded-lg">
+
+            <div class="mb-5">
+                <label for="name" class="block font-semibold mb-2">
+                    Your Name
+                </label>
+
+                <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    placeholder="Enter your name"
+                    required
+                    class="border border-gray-300 p-3 w-full rounded focus:outline-none focus:border-green-700">
+            </div>
+
+            <div class="mb-5">
+                <label for="email" class="block font-semibold mb-2">
+                    Your Email
+                </label>
+
+                <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="Enter your email"
+                    required
+                    class="border border-gray-300 p-3 w-full rounded focus:outline-none focus:border-green-700">
+            </div>
+
+            <div class="mb-5">
+                <label for="message" class="block font-semibold mb-2">
+                    Your Message
+                </label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Write your message here"
+                    required
+                    class="border border-gray-300 p-3 w-full rounded focus:outline-none focus:border-green-700"></textarea>
+            </div>
+
+            <div class="text-center">
+            <button type="submit"
+                class="bg-green-900 text-white px-6 py-3 rounded hover:bg-green-700">
+                Submit
+            </button>
+        </div>
+
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-100 p-8 text-center">
+        <h2 class="text-2xl font-bold text-green-900 mb-3">Greenden</h2>
+        <p>We are here to help you bring more green into your life.</p>
+        <p class="text-sm text-gray-600 mt-4">© 2026 Greenden. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
